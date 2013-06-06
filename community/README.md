@@ -70,13 +70,10 @@ install the ASCIIDOC toolchain
 
     brew install docbook asciidoc w3m fop graphviz
 
-register docbook dtd
+register docbook dtd  
+to do so on OS X, run the following command in the manual toplevel directory (i.e. `neo4j/manual`):
 
-    sudo src/build/osx-register-docbook
-
-on os x, in the manual toplevel directory, please do
-
-   sudo src/build/osx-register-docbook
+    sudo osx-docbook-register
 
 
 Working with the source code in Eclipse IDE

@@ -168,7 +168,7 @@ Finally, the use of git and Github for source code configuration management is d
 ### Overview of the directory structure
 The [main repository](https://github.com/neo4j/neo4j)
 is ordered according to [maven](http://maven.apache.org/)
-conventions and reflects the structure of components and models
+conventions and reflects the structure of components and modules
 as discussed in the Module Structure section.
 
 The top-level directories in the repository contain the main components:
@@ -208,6 +208,8 @@ add `-DskipTests` to the maven call,
 which will skip the execution of the unit tests.
 If you don't even want to compile the tests,
 use `-Dmaven.test.skip=true` instead.
+For more information about building Neo4j,
+please consult the [main readme](https://github.com/neo4j/neo4j/blob/master/README.md).
 For further instructions on building the manual,
 please refer to the [manual component's readme](https://github.com/neo4j/neo4j/blob/master/manual/README.asciidoc).
 
